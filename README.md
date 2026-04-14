@@ -2,7 +2,7 @@
 # 🚀 NLP: Text Classification Project
 
 <p align="center">
-  <img src="YOUTUBE_LOGO_URL_MANA_SHU_YERGA" width="150" alt="MachineLearning_uz Logo">
+  <img src="YOUTUBE_LOGO_URL_MANA_SHU_YERGA" width="150" alt="MachineLearning_uz">
   <br>
   <b>MachineLearning_uz YouTube kanali maxsus loyihasi</b>
 </p>
