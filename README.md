@@ -1,35 +1,40 @@
-# NLP-text-classification-summarization
-# 🚀 NLP: Text Classification Project
+# 🚀 NLP: Matn Klassifikatsiyasi (DistilBERT yordamida)
 
-<p align="center">
-  <img src="YOUTUBE_LOGO_URL_MANA_SHU_YERGA" width="150" alt="@MachineLearning_uz">
-  <br>
-  <b>MachineLearning_uz YouTube kanali maxsus loyihasi</b>
-</p>
+<div align="center">
+  <h1>🤖 MachineLearning_uz</h1>
+  <p><b>Sun'iy Intellekt va NLP dunyosiga xush kelibsiz!</b></p>
+</div>
 
 ---
 
 ## 📝 Loyiha haqida
-Ushbu loyihada zamonaviy **NLP (Natural Language Processing)** usullari, xususan **Transformer** arxitekturasiga asoslangan **DistilBERT** modeli yordamida matnlarni klassifikatsiya qilish amalga oshirilgan. Loyiha doirasida ikkita turli xil vazifa bajarildi:
-1. **Binary Classification** (IMDB Reviews)
-2. **Multi-class Classification** (AG News)
+Ushbu repozitoriyada **NLP (Tabiiy tilni qayta ishlash)** sohasining eng muhim ikki yo'nalishi bo'yicha amaliy loyiha jamlangan. Biz **Hugging Face** ekotizimidan foydalanib, **DistilBERT** transformer modelini ikkita turli vazifa uchun o'qitdik (Fine-tuning).
 
-## 📊 Ishlatilgan Datasetlar
-| Dataset | Vazifa | Klasslar soni | Ma'lumot hajmi |
-| :--- | :--- | :---: | :--- |
-| **IMDB** | Sentiment Analysis | 2 | 50,000 reviews |
-| **AG News** | Topic Classification | 4 | 127,600 news |
+### ✅ Bajargan vazifalarimiz:
+1.  **Sentiment Analysis (IMDB):** Foydalanuvchi fikrlarining ijobiy yoki salbiyligini aniqlash.
+2.  **Topic Classification (AG News):** Yangiliklarni 4 ta toifaga (Dunyo, Sport, Biznes, Texno) avtomatik ajratish.
 
-## 🧠 Model va Texnologiyalar
-- **Model:** `distilbert-base-uncased` (Lightweight and Fast Transformer)
-- **Kutubxonalar:** `Transformers`, `Datasets`, `Evaluate`, `PyTorch`
-- **Metrikalar:** Accuracy, Precision, Recall, F1-score
+---
 
-## 🛠 O'rnatish va Ishga tushirish
-Loyihani lokal kompyuteringizda ishlatish uchun quyidagi buyruqlarni bajaring:
+## 📊 Datasetlar tavsifi
 
+| Dataset | Klasslar | Tavsif |
+| :--- | :--- | :--- |
+| **IMDB** | 2 ta (Pos/Neg) | Kinolar haqidagi 50k sharhlar to'plami. |
+| **AG News** | 4 ta (World, Sports, Business, Sci/Tech) | 120k dan ortiq yangiliklar sarlavhalari. |
+
+---
+
+## 🛠 Texnologik stek
+* **Model:** `distilbert-base-uncased`
+* **Library:** `transformers`, `datasets`, `evaluate`, `torch`, `accelerate`
+* **Environment:** Google Colab / Jupyter Notebook
+
+## 🚀 Qanday ishga tushirish kerak?
+
+1. Repozitoriyani yuklab oling:
 ```bash
-pip install transformers datasets evaluate accelerate torch
+git clone [https://github.com/SizningUsername/nlp-classification-uz.git](https://github.com/SizningUsername/nlp-classification-uz.git)
 🚀 Natijalar (Expected Results)
 Model o'qitilgandan so'ng quyidagicha aniqlik ko'rsatkichlariga erishildi:
 
