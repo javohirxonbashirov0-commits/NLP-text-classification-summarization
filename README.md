@@ -2,7 +2,7 @@
 # 🚀 NLP: Text Classification Project
 
 <p align="center">
-  <img src="YOUTUBE_LOGO_URL_MANA_SHU_YERGA" width="150" alt="MachineLearning_uz">
+  <img src="YOUTUBE_LOGO_URL_MANA_SHU_YERGA" width="150" alt="@MachineLearning_uz">
   <br>
   <b>MachineLearning_uz YouTube kanali maxsus loyihasi</b>
 </p>
@@ -45,27 +45,9 @@ classification_ag_news.ipynb - Yangiliklarni toifalarga ajratish.
 📺 Video Darslik
 Ushbu loyihaning to'liq tushuntirilgan videosini mening YouTube kanalimda ko'rishingiz mumkin:
 
-👉 MachineLearning_uz YouTube kanali
+👉 MachineLearning_uz YouTube kanali @MachineLearning_uz
 
 🤝 Aloqa
 Agar loyiha bo'yicha savollaringiz bo'lsa, menga bog'lanishingiz mumkin!
 
 ⭐ Agar loyiha sizga foydali bo'lgan bo'lsa, "Star" tugmasini bosib qo'yishni unutmang!
-
-
----
-
-### 💡 GitHub'ga yuklashda bir nechta maslahat:
-
-1.  **Logo URL:** `YOUTUBE_LOGO_URL_MANA_SHU_YERGA` degan joyga YouTube kanalingiz logosining linkini qo'ying. Agar logoni loyiha papkasiga yuklasangiz, shunchaki `logo.png` deb yozib qo'ysangiz ham bo'ladi.
-2.  **Requirements.txt:** Loyihangizda qaysi kutubxonalar ishlatilganini bildirish uchun `requirements.txt` faylini yarating va ichiga bularni yozing:
-    ```text
-    transformers
-    datasets
-    evaluate
-    torch
-    accelerate
-    ```
-3.  **Commit Message:** Yuklashda "Initial commit: Added classification models and README" deb yozsangiz, juda professional ko'rinadi.
-
-Sizningcha, yana biror narsa qo'shishimiz kerakmi? Masalan, summarization (matnni qisqartirish) kodini ham qo'shamizmi yoki hozircha faqat klassifikatsiyami?
